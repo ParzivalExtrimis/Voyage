@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Voyage/app/src/main/res/drawable/bottom_nav_card.xml" value="0.1775" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Voyage/app/src/main/res/drawable/deavtivated_next_button_background.xml" value="0.135" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Voyage/app/src/main/res/drawable/explore_food_menu_card.xml" value="0.182" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Voyage/app/src/main/res/drawable/explore_menu_driver_card.xml" value="0.182" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Voyage/app/src/main/res/drawable/explore_menu_food_card.xml" value="0.182" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Voyage/app/src/main/res/drawable/explore_menu_train_card.xml" value="0.182" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Voyage/app/src/main/res/drawable/ic_V_foreground.xml" value="0.1775" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Voyage/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.182" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Voyage/app/src/main/res/drawable/ic_baseline_food_bank_24.xml" value="0.182" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Voyage/app/src/main/res/drawable/ic_baseline_keyboard_arrow_right_24.xml" value="0.182" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Voyage/app/src/main/res/drawable/ic_baseline_king_bed_24.xml" value="0.182" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Voyage/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.182" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Voyage/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1695" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Voyage/app/src/main/res/drawable/new_package_card.xml" value="0.135" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Voyage/app/src/main/res/drawable/next_button_background.xml" value="0.1775" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Voyage/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Voyage/app/src/main/res/layout/activity_on_boarding_slider.xml" value="0.264" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Voyage/app/src/main/res/layout/activity_splash.xml" value="0.25" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Voyage/app/src/main/res/layout/activity_test.xml" value="0.176" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Voyage/app/src/main/res/layout/featured_places_layout.xml" value="0.536" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Voyage/app/src/main/res/layout/fragment_dash.xml" value="0.15789473684210525" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Voyage/app/src/main/res/layout/fragment_fav.xml" value="0.15789473684210525" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Voyage/app/src/main/res/layout/fragment_new_package.xml" value="0.15789473684210525" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Voyage/app/src/main/res/layout/fragment_new_pakage.xml" value="0.15789473684210525" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Voyage/app/src/main/res/layout/fragment_new_trip.xml" value="0.15789473684210525" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Voyage/app/src/main/res/layout/fragment_search.xml" value="0.15789473684210525" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Voyage/app/src/main/res/layout/new_package_recycler_card.xml" value="0.176" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Voyage/app/src/main/res/layout/onboarding_view.xml" value="0.152" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Voyage/app/src/main/res/layout/popular_places_layout.xml" value="0.264" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Voyage/app/src/main/res/menu/main_nav_menu.xml" value="0.15789473684210525" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Voyage/app/src/main/res/mipmap-anydpi-v26/ic_V.xml" value="0.1775" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Voyage/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1695" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Voyage/app/src/main/res/mipmap-anydpi-v26/ic_v.xml" value="0.128" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

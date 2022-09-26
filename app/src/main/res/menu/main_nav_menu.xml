@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/dash_fragment"
+        android:title="@null"
+        android:enabled="true"
+        android:icon="@drawable/ic_home"
+        app:actionViewClass="android.widget.ImageButton"
+        tools:ignore="MenuTitle" />
+    <item
+        android:id="@+id/search_fragment"
+        android:title="@null"
+        android:icon="@drawable/ic_search"
+        app:actionViewClass="android.widget.ImageButton"
+        tools:ignore="MenuTitle" />
+    <item
+        android:id="@+id/my_trips_fragment"
+        android:title="@null"
+        android:icon="@drawable/ic_baseline_favorite_border_24"
+        app:actionViewClass="android.widget.ImageButton"
+        tools:ignore="MenuTitle" />
+    <item
+        android:id="@+id/new_trip_fragment"
+        android:title="@null"
+        android:icon="@drawable/ic_baseline_add_24"
+        app:actionViewClass="android.widget.ImageButton"
+        tools:ignore="MenuTitle" />
+</menu>

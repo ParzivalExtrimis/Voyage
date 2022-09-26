@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dash_background_color"
+    android:theme="@style/Theme.Voyage.NoDark"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.locale.voyage.Utils.MyScrollView
+            android:id="@+id/dash_scroller"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/explore_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="30dp"
+                    android:fontFamily="@font/amiko"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="20dp"
+                    android:text="@string/explore_text"
+                    android:textAllCaps="true"
+                    android:textColor="@color/space_gray"
+                    android:textSize="42sp" />
+
+                <LinearLayout
+                    android:id="@+id/explore_nav_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+
+                        <ImageButton
+                            android:id="@+id/b_explore_menu_food"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginEnd="15dp"
+                            android:background="@drawable/explore_menu_food_card"
+                            android:contentDescription="@string/restaurant_image_button_description"
+                            android:elevation="10dp"
+                            android:padding="10dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/cutlery_white" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="5dp"
+                            android:text="@string/restaurants_text"
+                            android:textAlignment="center"
+                            android:textColor="@color/matt_black" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <ImageButton
+                            android:id="@+id/b_explore_menu_hotels"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginEnd="15dp"
+                            android:background="@drawable/explore_menu_hotel_card"
+                            android:contentDescription="@string/hotels_image_button_description"
+                            android:elevation="10dp"
+                            android:padding="5dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/ic_baseline_king_bed_24" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="5dp"
+                            android:text="@string/hotels_text"
+                            android:textAlignment="center"
+                            android:textColor="@color/matt_black" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <ImageButton
+                            android:id="@+id/b_explore_menu_drivers"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginEnd="15dp"
+                            android:background="@drawable/explore_menu_driver_card"
+                            android:contentDescription="@string/drivers_image_button_description"
+                            android:elevation="10dp"
+                            android:padding="2dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/driver_car_white" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="5dp"
+                            android:text="@string/drivers_text"
+                            android:textAlignment="center"
+                            android:textColor="@color/matt_black" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <ImageButton
+                            android:id="@+id/b_explore_menu_trains"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginEnd="15dp"
+                            android:background="@drawable/explore_menu_train_card"
+                            android:contentDescription="@string/trains_image_button_description"
+                            android:elevation="10dp"
+                            android:padding="5dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/train_white" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="5dp"
+                            android:text="@string/trains_text"
+                            android:textAlignment="center"
+                            android:textColor="@color/matt_black" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/recycler_featured_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="240dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:clickable="true"
+                    android:background="@color/feat_background_color">
+
+                    <TextView
+                        android:id="@+id/featured_title_layout"
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/feat_background_dark_color"
+                        android:fontFamily="@font/amiko"
+                        android:paddingStart="10dp"
+                        android:paddingTop="40dp"
+                        android:paddingEnd="10dp"
+                        android:text="@string/featured_title_text"
+                        android:textAllCaps="true"
+                        android:textColor="@color/matt_black"
+                        android:textSize="23sp" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recycler_featured"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_toEndOf="@+id/featured_title_layout"
+                        android:clickable="true" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:fontFamily="@font/amiko"
+                        android:text="@string/popular_title_text"
+                        android:textAllCaps="true"
+                        android:textColor="@color/space_gray"
+                        android:textSize="28sp" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recycler_popular"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="15dp" />
+
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="320dp"
+                    android:background="@color/matt_blue">
+
+                    <TextView
+                        android:id="@+id/winter_holidays_title_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/baloo"
+                        android:paddingTop="25dp"
+                        android:paddingBottom="25dp"
+                        android:text="@string/winter_holidays_title_text"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="26sp"
+                        android:textStyle="bold" />
+
+                    <androidx.viewpager2.widget.ViewPager2
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="70dp"
+                        android:layout_marginEnd="30dp"
+                        android:layout_marginBottom="25dp" />
+                </RelativeLayout>
+            </LinearLayout>
+        </com.locale.voyage.Utils.MyScrollView>
+
+    </LinearLayout>
+</RelativeLayout>

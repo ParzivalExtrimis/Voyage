@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#8E24AA</color>
+    <color name="matt_purple">#8642EA</color>
+    <color name="purple_700">#5E35B1</color>
+    <color name="teal_200">#42E4D5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="matt_red">#EF403D</color>
+    <color name="matt_blue">#41A6FF</color>
+    <color name="matt_green">#3ACC40</color>
+    <color name="popular_background_color">#D9FBFF</color>
+    <color name="dash_background_color">#F1F9FF</color>
+    <color name="feat_background_color">#FFF3BE</color>
+    <color name="feat_background_dark_color">#FDEC9E</color>
+    <color name="black">#FF000000</color>
+    <color name="matt_black">#252525</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="space_gray">#686868</color>
+    <color name="metal_gray">#A1A1A1</color>
+    <color name="mustard">#F1AE0E</color>
+    <color name="mustard_dark">#EAA605</color>
+    <color name="transparent">#00FFFFFF</color>
+
+    <!-- candy colors -->
+    <color name="candy_red">#FF7774</color>
+    <color name="candy_blue">#7AC0FD</color>
+    <color name="candy_green">#9BD89E</color>
+    <color name="candy_yellow">#FFEB94</color>
+    <color name="candy_pink">#F6A5FB</color>
+    <color name="candy_purple">#DEA8FF</color>
+    <color name="candy_orange">#FAC481</color>
+    <color name="candy_teal">#83CABC</color>
+    <color name="candy_ruby">#A79DFF</color>
+    <color name="ocean">#A0E3FD</color>
+    <color name="emerald">#99E4B7</color>
+    <color name="jungle_green">#A3FF93</color>
+    <color name="swamp_green">#D1FF91</color>
+</resources>

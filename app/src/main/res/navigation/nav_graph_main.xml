@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_main"
+    app:startDestination="@id/dash_fragment">
+
+    <fragment
+        android:id="@+id/dash_fragment"
+        android:name="com.locale.voyage.DashFragment"
+        android:label="fragment_dash"
+        tools:layout="@layout/fragment_dash" >
+    </fragment>
+    <fragment
+        android:id="@+id/search_fragment"
+        android:name="com.locale.voyage.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" >
+    </fragment>
+    <fragment
+        android:id="@+id/my_trips_fragment"
+        android:name="com.locale.voyage.FavFragment"
+        android:label="fragment_fav"
+        tools:layout="@layout/fragment_fav" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/new_trip_fragment"
+        android:name="com.locale.voyage.NewTripFragment"
+        android:label="fragment_new_trip"
+        tools:layout="@layout/fragment_new_trip" >
+        <action
+            android:id="@+id/action_new_trip_fragment_to_newPackageFragment"
+            app:destination="@id/newPackageFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:popUpTo="@id/new_trip_fragment"
+            app:popUpToInclusive="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/newPackageFragment"
+        android:name="com.locale.voyage.NewPackageFragment"
+        android:label="fragment_new_package"
+        tools:layout="@layout/fragment_new_package" />
+
+</navigation>
